@@ -6,9 +6,9 @@ library pointycastle.src.registry;
 
 
 import "registry_disabled.dart"
-  if (dart.library.mirrors) "registry_reflectable.dart";
+//  if (dart.library.mirrors) "registry_reflectable.dart";
 export  "registry_disabled.dart"
-  if (dart.library.mirrors) "registry_reflectable.dart";
+//  if (dart.library.mirrors) "registry_reflectable.dart";
 
 final FactoryRegistry registry = makeRegistry();
 
